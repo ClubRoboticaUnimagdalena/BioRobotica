@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+}
+.background_img img{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.logo_img img{
+    position: relative;
+    top: -60px;
+    background-color: white;
+    border-radius: 60px; 
+    width: 125px;
+    height: 125px;
+}
+.cuadro{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #4bcbcf93, #237fff93);
+    box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.814);
+    border-radius: 20px;
+    margin-top: 150px;
+    width: 390px;
+    height: 470px;
+}
+.opci{
+    margin-top: 70px;
+    position: absolute;
+}
+.op{
+    background-color: rgba(0, 255, 255, 0.614);
+    box-shadow: 5px 5px 8px rgb(0, 0, 0, 0.814);
+    border-radius: 10px;
+    width: 330px;
+    height: 40px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+
+}
+.op p{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-right: 9px;
+}
+.icons{
+    float: left;
+    
+    background: linear-gradient(135deg, #b7cf4b, #8223ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: 9px;
+    margin-top: -2px;
+}
+footer{
+    position: fixed;
+    top:96%;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+}
